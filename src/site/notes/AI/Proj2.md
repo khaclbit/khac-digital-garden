@@ -6,11 +6,11 @@
 
 ---
 
-## Dự án 02: Hashiwokakero
+# Dự án 02: Hashiwokakero
 
 Đây là tài liệu dành cho môn học **CSC14003 - Nhập môn Trí tuệ Nhân tạo (Introduction to Artificial Intelligence)**, được ban hành vào ngày 15 tháng 3 năm 2025.
 
-### Mục lục
+## Mục lục
 
 Tài liệu dự án này bao gồm các phần chính sau:
 
@@ -28,7 +28,7 @@ Tài liệu dự án này bao gồm các phần chính sau:
 
 ---
 
-### 1. Tổng quan
+## 1. Tổng quan
 
 **Hashiwokakero** (còn được gọi là **Bridges** hoặc **Hashi**) là một trò chơi giải đố logic thách thức người chơi kết nối các hòn đảo được đánh số bằng một số lượng cầu cụ thể, đồng thời phải tuân thủ một bộ quy tắc đơn giản.
 
@@ -36,7 +36,7 @@ Trò chơi này được xuất bản bởi Nikoli và yêu cầu **tư duy chi�
 
 Trò chơi đã trở nên phổ biến trên toàn thế giới dưới nhiều tên khác nhau, ví dụ như **Ai-Ki-Ai** ở Pháp, Đan Mạch, Hà Lan và Bỉ. Với thiết kế thanh lịch và chiều sâu logic, Hashiwokakero mang đến một thử thách hấp dẫn cho những người đam mê giải đố ở mọi cấp độ.
 
-### 2. Mô tả Dự án
+## 2. Mô tả Dự án
 
 Hashiwokakero được chơi trên một lưới hình chữ nhật không có kích thước tiêu chuẩn, mặc dù bản thân lưới thường không được vẽ.
 
@@ -62,9 +62,9 @@ Các cây cầu phải tuân theo các tiêu chí sau:
 5. __(Thực hiện) Áp dụng Thuật toán Tìm kiếm A_:_* Áp dụng thuật toán A* để giải CNF.
 6. **(Thực hiện) So sánh với các Phương pháp khác:** Lập trình thuật toán **Brute-force (vét cạn)** và **Backtracking (quay lui)** để so sánh tốc độ (bằng cách đo thời gian chạy — khoảng thời gian máy tính cần để thực hiện một tác vụ cụ thể) và hiệu suất của chúng với thuật toán A*.
 
-### 3. Yêu cầu (Requirements)
+## 3. Yêu cầu (Requirements)
 
-#### 3.1 Đầu vào (Inputs)
+### 3.1 Đầu vào (Inputs)
 
 Sinh viên được yêu cầu thiết kế **ít nhất 10 tệp đầu vào khác nhau**. Các tệp này phải được đặt tên theo cấu trúc: `input-01.txt`, `input-02.txt`, ..., `input-10.txt`.
 
@@ -82,7 +82,7 @@ Ví dụ về định dạng đầu vào:
 
 Trong định dạng này, **số không (zeros)** đại diện cho các ô trống, và **các số khác** thể hiện các hòn đảo.
 
-#### 3.2 Đầu ra (Outputs)
+### 3.2 Đầu ra (Outputs)
 
 Đầu ra cho ví dụ trên sẽ có định dạng như sau:
 
@@ -103,11 +103,11 @@ Các ký hiệu trong đầu ra được định nghĩa như sau:
 - **`-`** có nghĩa là **một cầu ngang** (one horizontal bridge).
 - **`=`** có nghĩa là **hai cầu ngang** (two horizontal bridges).
 
-#### 3.3 Ngôn ngữ lập trình (Programming language)
+### 3.3 Ngôn ngữ lập trình (Programming language)
 
 Mã nguồn phải được viết bằng **Python (phiên bản 3.7 trở lên)**. Sinh viên được phép sử dụng bất kỳ thư viện hỗ trợ nào; tuy nhiên, các **thuật toán chính liên quan trực tiếp đến quá trình tìm kiếm** phải được sinh viên tự triển khai (implemented by you).
 
-#### 3.4 Báo cáo (Report)
+### 3.4 Báo cáo (Report)
 
 Báo cáo cần phải bao gồm các nội dung sau:
 
@@ -122,12 +122,12 @@ Báo cáo cần phải bao gồm các nội dung sau:
 - Báo cáo cần được định dạng tốt (well-formatted) và **xuất sang định dạng PDF**. Điểm sẽ bị trừ nếu có hình ảnh bị cắt bởi ngắt trang, v.v..
 - Tài liệu tham khảo (nếu có).
 
-#### 3.5 Video minh họa (Demonstration videos)
+### 3.5 Video minh họa (Demonstration videos)
 
 - Các video minh họa (ghi lại quá trình chạy chương trình của sinh viên với một số trường hợp kiểm thử) nên được tải lên **YouTube hoặc Google Drive**, và **các URL công khai** phải được đưa vào báo cáo.
 - Trong video, sinh viên nên bắt đầu từ việc biên dịch hoặc chạy mã của mình, sau đó **đi qua các bước chính** của quá trình thực thi chương trình để người xem dễ theo dõi.
 
-#### 3.6 Nộp bài (Submission)
+### 3.6 Nộp bài (Submission)
 
 - Báo cáo, mã nguồn và các trường hợp kiểm thử phải được nộp dưới dạng một tệp nén (`.zip`, `.rar`, `.7z`) và được đặt tên theo định dạng: `StudentID1 StudentID2 . . .`.
 - Nếu tệp nén lớn hơn **25MB**, ưu tiên nén báo cáo và mã nguồn. Các trường hợp kiểm thử có thể được tải lên **Google Drive** và chia sẻ qua một liên kết.
@@ -153,20 +153,20 @@ StudentID1 StudentID2
 
 ---
 
-### 4. Đánh giá (Assessment)
+## 4. Đánh giá (Assessment)
 
 Dự án sẽ được đánh giá dựa trên các tiêu chí sau:
 
-|No|Tiêu chí|Điểm số|
-|:--|:--|:--|
-|1|**Mô tả Giải pháp:** Mô tả các nguyên tắc logic chính xác để tạo CNFs.|**30%**|
-|2|**Tự động tạo CNFs.**|**10%**|
-|3|**Sử dụng thư viện PySAT** để giải CNFs một cách chính xác.|**10%**|
-|4|**Triển khai A*** để giải CNFs mà **không sử dụng thư viện.**|**10%**|
-|5|**Triển khai các thuật toán bổ sung để so sánh:** 1) Thuật toán Brute-force để so sánh với A* (tốc độ); 2) Thuật toán Backtracking để so sánh với A* (tốc độ).|**10%**|
-|6|**Tài liệu và Phân tích:** 1) Viết báo cáo chi tiết (chiếm 30% điểm của tiêu chí này); 2) Phân tích và thử nghiệm kỹ lưỡng; 3) Cung cấp **ít nhất 10 trường hợp kiểm thử** với **các kích thước khác nhau** (7 × 7, 9 × 9, 11 × 11, 13 × 13, 17 × 17, 20 × 20) để xác minh giải pháp; 4) So sánh kết quả và hiệu suất.|**30%**|
+| No  | Tiêu chí                                                                                                                                                                                                                                                                                                               | Điểm số |
+| :-- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| 1   | **Mô tả Giải pháp:** Mô tả các nguyên tắc logic chính xác để tạo CNFs.                                                                                                                                                                                                                                                 | **30%** |
+| 2   | **Tự động tạo CNFs.**                                                                                                                                                                                                                                                                                                  | **10%** |
+| 3   | **Sử dụng thư viện PySAT** để giải CNFs một cách chính xác.                                                                                                                                                                                                                                                            | **10%** |
+| 4   | **Triển khai A*** để giải CNFs mà **không sử dụng thư viện.**                                                                                                                                                                                                                                                          | **10%** |
+| 5   | **Triển khai các thuật toán bổ sung để so sánh:** 1) Thuật toán Brute-force để so sánh với A* (tốc độ); 2) Thuật toán Backtracking để so sánh với A* (tốc độ).                                                                                                                                                         | **10%** |
+| 6   | **Tài liệu và Phân tích:** 1) Viết báo cáo chi tiết (chiếm 30% điểm của tiêu chí này); 2) Phân tích và thử nghiệm kỹ lưỡng; 3) Cung cấp **ít nhất 10 trường hợp kiểm thử** với **các kích thước khác nhau** (7 × 7, 9 × 9, 11 × 11, 13 × 13, 17 × 17, 20 × 20) để xác minh giải pháp; 4) So sánh kết quả và hiệu suất. | **30%** |
 
-### 5. Thông báo (Notices)
+## 5. Thông báo (Notices)
 
 Xin lưu ý những thông báo sau:
 
