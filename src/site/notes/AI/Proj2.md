@@ -14,17 +14,17 @@
 
 Tài liệu dự án này bao gồm các phần chính sau:
 
-1. Tổng quan (Overview).
-2. Mô tả Dự án (Project Description).
-3. Yêu cầu (Requirements):
-    - 3.1 Đầu vào (Inputs).
-    - 3.2 Đầu ra (Outputs).
-    - 3.3 Ngôn ngữ lập trình (Programming language).
-    - 3.4 Báo cáo (Report).
-    - 3.5 Video minh họa (Demonstration videos).
-    - 3.6 Nộp bài (Submission).
-4. Đánh giá (Assessment).
-5. Thông báo (Notices).
+[[#1. Tổng quan]].
+[[#2. Mô tả Dự án]].
+[[#3. Yêu cầu (Requirements)]]
+    - [[#3.1 Đầu vào (Inputs)]]
+    - [[#3.2 Đầu ra (Outputs)]]
+    - [[#3.3 Ngôn ngữ lập trình (Programming language)]]
+    - [[#3.4 Báo cáo (Report)]]
+    - [[#3.5 Video minh họa (Demonstration videos)]]
+    - [[#3.6 Nộp bài (Submission)]]
+[[#4. Đánh giá (Assessment)]]
+[[#5. Thông báo (Notices)]]
 
 ---
 
@@ -35,7 +35,7 @@ Tài liệu dự án này bao gồm các phần chính sau:
 Trò chơi này được xuất bản bởi Nikoli và yêu cầu **tư duy chiến lược và lập kế hoạch cẩn thận** để đảm bảo tất cả các hòn đảo được kết nối với nhau mà không vượt quá số lượng cầu cho phép trên mỗi hòn đảo.
 
 Trò chơi đã trở nên phổ biến trên toàn thế giới dưới nhiều tên khác nhau, ví dụ như **Ai-Ki-Ai** ở Pháp, Đan Mạch, Hà Lan và Bỉ. Với thiết kế thanh lịch và chiều sâu logic, Hashiwokakero mang đến một thử thách hấp dẫn cho những người đam mê giải đố ở mọi cấp độ.
-
+![Proj2.png](/img/user/AI/Images/Proj2.png)
 ## 2. Mô tả Dự án
 
 Hashiwokakero được chơi trên một lưới hình chữ nhật không có kích thước tiêu chuẩn, mặc dù bản thân lưới thường không được vẽ.
@@ -52,7 +52,7 @@ Các cây cầu phải tuân theo các tiêu chí sau:
 - Chỉ được phép có **tối đa hai cây cầu** kết nối một cặp đảo.
 - **Số lượng cầu** được kết nối với mỗi hòn đảo phải khớp với số được ghi trên hòn đảo đó.
 - Các cây cầu phải kết nối các hòn đảo thành **một nhóm kết nối duy nhất**.
-
+![Proj2_Example.png](/img/user/AI/Images/Proj2_Example.png)
 Để giải quyết vấn đề này, sinh viên có thể xem xét các bước sau:
 
 1. **Xác định Biến Logic:** Gán một biến logic cho mỗi ô của ma trận.
